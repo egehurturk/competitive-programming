@@ -1,0 +1,11 @@
+* https://www.hackerrank.com/domains/data-structures
+* https://www.hackerrank.com/domains/algorithms
+* https://codeforces.com/problemset
+* https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8
+* https://www.codechef.com/LEARNDSA?order=desc&sortBy=successful_submissions
+* https://www.codechef.com/tags/problems/?itm_medium=navmenu&itm_campaign=tagsproblems
+* https://www.codechef.com/problems/school/?itm_medium=navmenu&itm_campaign=problems
+* https://www.hackerearth.com/practice/
+* https://www.hackerearth.com/practice/notes/number-theory-1/
+* https://www.hackerearth.com/practice/notes/dynamic-programming-i-1/
+* https://cses.fi/problemset/list

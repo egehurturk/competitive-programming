@@ -1,0 +1,14 @@
+153 Evet
+370 Evet
+371 Evet
+6437 Hayir
+407 Evet
+876 Hayir
+0 Evet
+9474 Evet
+1 Evet
+8208 Evet
+10000 Hayir
+9999 Hayir
+2 Evet
+
