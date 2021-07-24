@@ -1,4 +1,4 @@
-#include "/Users/egehurturk/stdc++.h"
+#include <bits/stdc++.h>
 
 using namespace std;
 

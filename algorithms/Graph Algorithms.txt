@@ -1,0 +1,57 @@
+DFS( G=(V,E), s)
+================
+[assume all V ∖ {s} unexplored]
+mark s explored
+for each (s, u) ∈ E:
+	if u not explored
+		DFS(G, u)
+
+BFS( G=(V,E), s)
+================ 
+mark V unexplored 
+for all v ∈ V ∖ {s}:
+	𝛅(v) = ∞
+	𝛑(v) = NUL
+let 𝑸 = ∅
+push s into 𝑸
+mark s explored
+𝛅(s) = 0
+𝛑(s) = NUL
+while 𝑸 != ∅
+	v = dequeue 𝑸
+	for each (v, u) ∈ E
+		if u unexplored
+			push u into 𝑸
+			mark u explored
+			𝛅(u) = 𝛅(v) + 1;
+			𝛑(u) = v
+
+Connected-Components-BFS( G=(V,E) )
+===================================
+mark all V unexplored                  
+if vertex labels are not integers
+	Topological-Sort(G)				   
+for i = 1 to n  					   
+	if i unexplored					   
+		BFS(G, i)					   
+
+
+Topological-Sort( G=(V,E) )
+===========================
+current_label := |V|
+
+DFS-Util( G=(V,E), s)
+---------------------
+for every edge (s, v) ∈ E:
+	if v unexplored
+		mark v explored
+		DFS-Util(G, v)
+set f(s) = current_label
+current_label--
+---------------------
+
+mark all V unexplored
+
+for each v ∈ V
+	if v unexplored
+		DFS-Util(G, v)
