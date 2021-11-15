@@ -7,11 +7,18 @@ void swap(int* f, int* s) {
 }
 
 void bubblesort(int a[], int n) {
-	for (int i = 0; i < n-1; i++) {
+	int is_sorted = 0;
+
+	for (int i = 0; i < n-1 && !is_sorted; i++) {
 		for (int j = 0; j < n-i-1; j++) {
+			int is_swapped = 0;
 			if (a[j] > a[j+1]) {
 				swap(&a[j], &a[j+1]);
+				is_swapped = 1;
 			}
+			// optimization
+			if (!is_swapped)
+				is_sorted = 1;
 		}
 	}
 }
